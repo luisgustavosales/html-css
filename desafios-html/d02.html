@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="recursos/cursoemvideo.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Desafios das imagens</h1>
+    <p>Inserir imagens em HTML é muito simples, tanto no conteúdo quanto lá em cima, como o icone de favoritos.</p>
+    <picture>
+        <source media="(max-width: 50px)" srcset="recursos/github-pp.png" type="image/png">
+        <source media="(max-width: 150px)" srcset="recursos/github-p.png" type="image/png">
+        <source media="(max-width: 200px)" srcset="recursos/ginthub-m.png" type="image/png">
+        <source media="(max-width: 500px)" srcset="recursos/github-g.png" type="image/png">   
+         <img src="recursos/github-gg.png" alt="imagem flexivel">
+    </picture>
+</body>
+</html>
